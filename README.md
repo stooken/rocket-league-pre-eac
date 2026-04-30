@@ -215,6 +215,10 @@ Run `legendary auth` in a terminal and complete the browser login. Then try agai
 
 Your Epic account doesn't own Rocket League. You need a license. (Yes, even though Rocket League is free-to-play, you have to "claim" it on your account once for it to show up.)
 
+OR
+
+Run "legendary list" to confirm Rocket League appears in your account's game list. If you just claimed it, give it a minute and re-run "legendary auth" if it doesn't show up.
+
 ### `Manifest hashes do not match the known-good values.`
 
 Your manifest isn't the canonical one this tool was built for. Either find the canonical one (matches `C3B8E170…` SHA-1 and `B4D2CF20…` SHA-256), or pass `--accept-different-manifest` if you have a verified manifest from another source.
