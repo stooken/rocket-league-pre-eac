@@ -69,6 +69,8 @@ Get-FileHash "path\to\manifest" -Algorithm SHA256
 
 ## Installation
 
+Before we begin with the text installation, here is a YouTube video walking you through everything. The description also contains a very concise step-by-step text tutorial on what to do if you want to just download ASAP and don't care for the technical stuff. The actual time spent setting things up only takes maybe ~3 minutes. The reason the video is 16 Minutes is because I left it completely uncut. I did this so a user can see exactly what happens at each step of the script, and what the download itself looks like. [Here](https://www.youtube.com/watch?v=qwOsRcCXEjM) is the link to that video. I am currently working on cutting it down for a more concise version for those who just want to go ahead and download ASAP.
+
 ```powershell
 # Clone or download this repo, cd into it
 pip install -r requirements.txt
