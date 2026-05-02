@@ -690,9 +690,9 @@ def main():
 
     print("\n=== Done. Install verified. ===")
     print(f"  Game files:  {args.install_dir}")
-    print(
-        f"  Launch with: \"{args.install_dir}\\Binaries\\Win64\\RocketLeague.exe\" -EpicPortal"
-    )
+    print("  Launch with: python rl_pre_eac_launcher.py")
+    print("  (Running RocketLeague.exe directly will not load the main menu —")
+    print("   the launcher script provides the Epic auth handshake the game needs.)")
 
 
 if __name__ == "__main__":
