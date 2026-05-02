@@ -1,4 +1,4 @@
-# Rocket League Pre-EAC Recovery
+# Rocket League Pre-EAC Recovery (EGS Version)
 
 A pair of standalone Python tools that download and launch the **pre Easy-Anti-Cheat build of Rocket League** (`++Prime+Update58-CL-512269`, the build that shipped prior to April 28, 2026 and is compatible with the last BakkesMod release) directly from Epic's CDN, using a saved manifest file.
 
